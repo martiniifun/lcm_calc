@@ -18,7 +18,7 @@ class State(rx.State):
 def index():
     return rx.vstack(
         rx.heading("최소공배수 계산기"),
-        rx.text("띄어쓰기로 구분하여 두 개 이상의 자연수를 입력해주세요."),
+        rx.text("두 개 이상의 자연수를 띄어쓰기로 구분하여 입력해주세요."),
         rx.hstack(
             rx.form(
                 rx.input(
